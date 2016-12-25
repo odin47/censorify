@@ -42,7 +42,7 @@
 21 silly publish   engines: { node: '*' },
 21 silly publish   readme: 'Learning how to create my own node package modules.',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: '6f4efd8fccf894dd06e67ca3ff97563027f5e7f2',
+21 silly publish   gitHead: 'c5574f22f2298f161e8a62031aee8b4bf9500d3a',
 21 silly publish   bugs: { url: 'https://github.com/odin47/censorify/issues' },
 21 silly publish   homepage: 'https://github.com/odin47/censorify#readme',
 21 silly publish   _id: 'censorify@0.1.1',
@@ -66,22 +66,22 @@
 29 silly publish uploading C:\Users\dpod\AppData\Roaming\npm-cache\censorify\0.1.1\package.tgz
 30 verbose request uri https://registry.npmjs.org/censorify
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 2:15:06 PM
+32 info attempt registry request try #1 at 2:18:35 PM
 33 verbose request using bearer token for auth
-34 verbose request id 37ee3f0e5eb9bd50
+34 verbose request id 01293d3dc15fc164
 35 http request PUT https://registry.npmjs.org/censorify
 36 http 403 https://registry.npmjs.org/censorify
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '103',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Sun, 25 Dec 2016 08:45:08 GMT',
+37 verbose headers   date: 'Sun, 25 Dec 2016 08:48:37 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
 37 verbose headers   'x-served-by': 'cache-cdg8720-CDG',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1482655508.151798,VS0,VE672',
+37 verbose headers   'x-timer': 'S1482655716.705381,VS0,VE647',
 37 verbose headers   vary: 'Accept-Encoding' }
 38 verbose request invalidating C:\Users\dpod\AppData\Roaming\npm-cache\registry.npmjs.org\censorify on PUT
 39 error publish Failed PUT 403
