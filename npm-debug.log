@@ -1,110 +1,103 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'publish' ]
+1 verbose cli   'install',
+1 verbose cli   'censorifyodin47' ]
 2 info using npm@3.10.8
 3 info using node@v6.9.1
-4 verbose publish [ '.' ]
-5 silly cache add args [ '.', null ]
-6 verbose cache add spec .
-7 silly cache add parsed spec Result {
-7 silly cache add   raw: '.',
-7 silly cache add   scope: null,
-7 silly cache add   escapedName: null,
-7 silly cache add   name: null,
-7 silly cache add   rawSpec: '.',
-7 silly cache add   spec: 'C:\\Users\\dpod\\Desktop\\nodeJS\\censorify',
-7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory C:\Users\dpod\AppData\Roaming\npm-cache\censorifyOdin47\0.1.1\package.tgz not in flight; packing
-9 verbose correctMkdir C:\Users\dpod\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-10 info lifecycle censorifyOdin47@0.1.1~prepublish: censorifyOdin47@0.1.1
-11 silly lifecycle censorifyOdin47@0.1.1~prepublish: no script for prepublish, continuing
-12 verbose tar pack [ 'C:\\Users\\dpod\\AppData\\Roaming\\npm-cache\\censorifyOdin47\\0.1.1\\package.tgz',
-12 verbose tar pack   'C:\\Users\\dpod\\Desktop\\nodeJS\\censorify' ]
-13 verbose tarball C:\Users\dpod\AppData\Roaming\npm-cache\censorifyOdin47\0.1.1\package.tgz
-14 verbose folder C:\Users\dpod\Desktop\nodeJS\censorify
-15 verbose addLocalTarball adding from inside cache C:\Users\dpod\AppData\Roaming\npm-cache\censorifyOdin47\0.1.1\package.tgz
-16 verbose correctMkdir C:\Users\dpod\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-17 silly cache afterAdd censorifyOdin47@0.1.1
-18 verbose afterAdd C:\Users\dpod\AppData\Roaming\npm-cache\censorifyOdin47\0.1.1\package\package.json not in flight; writing
-19 verbose correctMkdir C:\Users\dpod\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-20 verbose afterAdd C:\Users\dpod\AppData\Roaming\npm-cache\censorifyOdin47\0.1.1\package\package.json written
-21 silly publish { author: { name: 'Deepak Podili Devendra' },
-21 silly publish   name: 'censorifyOdin47',
-21 silly publish   version: '0.1.1',
-21 silly publish   description: 'Censors words out of text',
-21 silly publish   main: 'censortext',
-21 silly publish   repository:
-21 silly publish    { type: 'git',
-21 silly publish      url: 'git+https://github.com/odin47/censorify.git' },
-21 silly publish   keywords: [ 'censor', 'words' ],
-21 silly publish   dependencies: {},
-21 silly publish   engines: { node: '*' },
-21 silly publish   readme: 'Learning how to create my own node package modules.',
-21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: 'ed50927cf857d5be0d6199ed0a0c3a33c530d41c',
-21 silly publish   bugs: { url: 'https://github.com/odin47/censorify/issues' },
-21 silly publish   homepage: 'https://github.com/odin47/censorify#readme',
-21 silly publish   _id: 'censorifyOdin47@0.1.1',
-21 silly publish   scripts: {},
-21 silly publish   _shasum: 'f4c1a802937ed8268086e274f15faff5b3253e7f',
-21 silly publish   _from: '.' }
-22 verbose getPublishConfig undefined
-23 silly mapToRegistry name censorifyOdin47
-24 silly mapToRegistry using default registry
-25 silly mapToRegistry registry https://registry.npmjs.org/
-26 silly mapToRegistry data Result {
-26 silly mapToRegistry   raw: 'censorifyOdin47',
-26 silly mapToRegistry   scope: null,
-26 silly mapToRegistry   escapedName: 'censorifyOdin47',
-26 silly mapToRegistry   name: 'censorifyOdin47',
-26 silly mapToRegistry   rawSpec: '',
-26 silly mapToRegistry   spec: 'latest',
-26 silly mapToRegistry   type: 'tag' }
-27 silly mapToRegistry uri https://registry.npmjs.org/censorifyOdin47
-28 verbose publish registryBase https://registry.npmjs.org/
-29 silly publish uploading C:\Users\dpod\AppData\Roaming\npm-cache\censorifyOdin47\0.1.1\package.tgz
-30 verbose request uri https://registry.npmjs.org/censorifyOdin47
-31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 2:20:23 PM
-33 verbose request using bearer token for auth
-34 verbose request id 50a6fdaa6ac9f722
-35 http request PUT https://registry.npmjs.org/censorifyOdin47
-36 http 400 https://registry.npmjs.org/censorifyOdin47
-37 verbose headers { 'content-type': 'application/json',
-37 verbose headers   'cache-control': 'max-age=300',
-37 verbose headers   'content-length': '55',
-37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Sun, 25 Dec 2016 08:50:25 GMT',
-37 verbose headers   via: '1.1 varnish',
-37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-cdg8732-CDG',
-37 verbose headers   'x-cache': 'MISS',
-37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1482655824.347370,VS0,VE1641',
-37 verbose headers   vary: 'Accept-Encoding' }
-38 verbose request invalidating C:\Users\dpod\AppData\Roaming\npm-cache\registry.npmjs.org\censorifyOdin47 on PUT
-39 error publish Failed PUT 400
-40 verbose stack Error: "name must be lower case" : censorifyOdin47
-40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
-40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
-40 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
-40 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
-40 verbose stack     at emitTwo (events.js:106:13)
-40 verbose stack     at Request.emit (events.js:191:7)
-40 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1044:10)
-40 verbose stack     at emitOne (events.js:96:13)
-40 verbose stack     at Request.emit (events.js:188:7)
-40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:965:12)
-41 verbose statusCode 400
-42 verbose pkgid censorifyOdin47
-43 verbose cwd C:\Users\dpod\Desktop\nodeJS\censorify
-44 error Windows_NT 6.1.7601
-45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
-46 error node v6.9.1
-47 error npm  v3.10.8
-48 error code E400
-49 error "name must be lower case" : censorifyOdin47
-50 error If you need help, you may report this error at:
-50 error     <https://github.com/npm/npm/issues>
-51 verbose exit [ 1, true ]
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData censorifyodin47
+8 silly fetchNamedPackageData censorifyodin47
+9 silly mapToRegistry name censorifyodin47
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'censorifyodin47',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'censorifyodin47',
+12 silly mapToRegistry   name: 'censorifyodin47',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/censorifyodin47
+14 verbose request uri https://registry.npmjs.org/censorifyodin47
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 2:23:43 PM
+17 verbose request using bearer token for auth
+18 verbose request id 512e967d29234f91
+19 http request GET https://registry.npmjs.org/censorifyodin47
+20 http 200 https://registry.npmjs.org/censorifyodin47
+21 verbose headers { server: 'nginx/1.10.1',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'last-modified': 'Sun, 25 Dec 2016 08:51:08 GMT',
+21 verbose headers   etag: 'W/"585f887c-710"',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'transfer-encoding': 'chunked',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Sun, 25 Dec 2016 08:53:44 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-cdg8729-CDG',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1482656024.886632,VS0,VE18',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 200,
+22 silly get   { server: 'nginx/1.10.1',
+22 silly get     'content-type': 'application/json',
+22 silly get     'last-modified': 'Sun, 25 Dec 2016 08:51:08 GMT',
+22 silly get     etag: 'W/"585f887c-710"',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'transfer-encoding': 'chunked',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Sun, 25 Dec 2016 08:53:44 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-cdg8729-CDG',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1482656024.886632,VS0,VE18',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose get saving censorifyodin47 to C:\Users\dpod\AppData\Roaming\npm-cache\registry.npmjs.org\censorifyodin47\.cache.json
+24 verbose correctMkdir C:\Users\dpod\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: Refusing to install censorifyodin47 as a dependency of itself
+41 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:53:14)
+41 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+41 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+41 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+41 verbose stack     at Array.forEach (native)
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+41 verbose stack     at Array.forEach (native)
+41 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+42 verbose cwd C:\Users\dpod\Desktop\nodeJS\censorify
+43 error Windows_NT 6.1.7601
+44 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "censorifyodin47"
+45 error node v6.9.1
+46 error npm  v3.10.8
+47 error code ENOSELF
+48 error Refusing to install censorifyodin47 as a dependency of itself
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
